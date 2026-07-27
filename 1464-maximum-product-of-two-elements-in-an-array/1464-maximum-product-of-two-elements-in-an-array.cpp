@@ -13,10 +13,10 @@ public:
     }
     int maxProduct(vector<int>& nums) {
         int ans = 1;
-        int i1 = max(nums);
-        int max1 = nums[i1];
+        int i1 = max(nums);  //idx of first max no
+        int max1 = nums[i1]; //first max no
 
-        nums[i1] = 0;
+        nums[i1] = 0; // replaced first max with 0 to find second max
 
         int i2 = max(nums);
         int max2 = nums[i2];
