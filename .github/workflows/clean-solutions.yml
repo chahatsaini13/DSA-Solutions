@@ -1,0 +1,46 @@
+name: Clean LeetCode Solutions
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Clean solutions
+        run: |
+          find . -type f -name "*Accepted*.cpp" | while read file
+          do
+              folder=$(dirname "$file")
+
+              # remove old solution.cpp
+              rm -f "$folder/solution.cpp"
+
+              # rename accepted file
+              mv "$file" "$folder/solution.cpp"
+          done
+
+          # remove python submissions
+          find . -type f -name "*.py" -delete
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          git add .
+
+          git commit -m "Auto clean LeetCode submissions" || exit 0
+
+          git push
