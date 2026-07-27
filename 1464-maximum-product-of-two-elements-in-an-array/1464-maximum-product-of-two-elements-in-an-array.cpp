@@ -12,7 +12,6 @@ public:
         return maxidx;
     }
     int maxProduct(vector<int>& nums) {
-        int ans = 1;
         int i1 = max(nums);  //idx of first max no
         int max1 = nums[i1]; //first max no
 
