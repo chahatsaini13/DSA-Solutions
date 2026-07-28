@@ -20,11 +20,9 @@ public:
         }
 
         q.push(root);
-
-        bool leftToRight = true;
+        bool rev = true;
 
         while(!q.empty()){
-
             int lvlsize = q.size();
             vector<int> temp;
 
@@ -42,11 +40,11 @@ public:
                 }
             }
 
-            if(!leftToRight){
+            if(!rev){
                 reverse(temp.begin(), temp.end());
             }
             res.push_back(temp);
-            leftToRight = !leftToRight;
+            rev = !rev;
         }
 
         return res;
