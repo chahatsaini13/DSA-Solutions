@@ -12,29 +12,46 @@
 class Solution {
 public:
     TreeNode* prev = nullptr;
-    TreeNode* first = nullptr;
-    TreeNode* second = nullptr;
+    int glt = 0;
+    TreeNode* g1first = nullptr;
+    TreeNode* g1second = nullptr;
+    TreeNode* g2first = nullptr;
+    TreeNode* g2second = nullptr;
 
-    void checkPrev(TreeNode* root){
+    void previous(TreeNode* root){
         if(root == nullptr){
             return;
         }
 
-        checkPrev(root->left);
-
-        if(prev != nullptr && prev->val > root->val){
-            if(first == nullptr){
-                first = prev;
-            }
-            second = root;
+        previous(root->left);
+        if(prev == nullptr){
+            prev = root;
         }
-        prev = root;
-        
-        checkPrev(root->right);
+        else{
+            if(prev->val > root->val){
+                if(glt == 0){
+                    g1first = prev;
+                    g1second = root;
+                }
+                else{
+                    g2first = prev;
+                    g2second = root;
+                }
+                glt++;
+            }
+            prev = root;
+        }
+        previous(root->right);
     }
 
     void recoverTree(TreeNode* root) {
-        checkPrev(root);
-        swap(first->val, second->val);
+        previous(root);
+
+        if(glt == 1){
+            swap(g1first->val, g1second->val);
+        }
+        else{
+            swap(g1first->val, g2second->val);
+        }
     }
 };
