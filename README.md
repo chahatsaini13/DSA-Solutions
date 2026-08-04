@@ -25,6 +25,7 @@
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/chahatsaini13/dsa-solutions/tree/master/0094-binary-tree-inorder-traversal) |
+| [0098-validate-binary-search-tree](https://github.com/chahatsaini13/dsa-solutions/tree/master/0098-validate-binary-search-tree) |
 | [0100-same-tree](https://github.com/chahatsaini13/dsa-solutions/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/chahatsaini13/dsa-solutions/tree/master/0101-symmetric-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/chahatsaini13/dsa-solutions/tree/master/0102-binary-tree-level-order-traversal) |
@@ -49,6 +50,7 @@
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/chahatsaini13/dsa-solutions/tree/master/0094-binary-tree-inorder-traversal) |
+| [0098-validate-binary-search-tree](https://github.com/chahatsaini13/dsa-solutions/tree/master/0098-validate-binary-search-tree) |
 | [0100-same-tree](https://github.com/chahatsaini13/dsa-solutions/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/chahatsaini13/dsa-solutions/tree/master/0101-symmetric-tree) |
 | [0112-path-sum](https://github.com/chahatsaini13/dsa-solutions/tree/master/0112-path-sum) |
@@ -68,6 +70,7 @@
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/chahatsaini13/dsa-solutions/tree/master/0094-binary-tree-inorder-traversal) |
+| [0098-validate-binary-search-tree](https://github.com/chahatsaini13/dsa-solutions/tree/master/0098-validate-binary-search-tree) |
 | [0100-same-tree](https://github.com/chahatsaini13/dsa-solutions/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/chahatsaini13/dsa-solutions/tree/master/0101-symmetric-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/chahatsaini13/dsa-solutions/tree/master/0102-binary-tree-level-order-traversal) |
@@ -120,6 +123,7 @@
 ## Binary Search Tree
 |  |
 | ------- |
+| [0098-validate-binary-search-tree](https://github.com/chahatsaini13/dsa-solutions/tree/master/0098-validate-binary-search-tree) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/chahatsaini13/dsa-solutions/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/chahatsaini13/dsa-solutions/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0700-search-in-a-binary-search-tree](https://github.com/chahatsaini13/dsa-solutions/tree/master/0700-search-in-a-binary-search-tree) |
