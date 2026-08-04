@@ -29,6 +29,7 @@ public:
             second = root;
         }
         prev = root;
+        
         checkPrev(root->right);
     }
 
