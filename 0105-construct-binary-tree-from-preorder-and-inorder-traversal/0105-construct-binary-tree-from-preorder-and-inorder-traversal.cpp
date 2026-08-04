@@ -31,7 +31,7 @@ public:
 
     TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
         for(int i = 0; i < inorder.size(); i++){
-            in[inorder[i]] = i;;
+            in[inorder[i]] = i;
         }
 
         return func(preorder, in, 0 , inorder.size()-1);
