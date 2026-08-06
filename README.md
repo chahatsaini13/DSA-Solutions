@@ -36,18 +36,25 @@
 | ------- |
 | [0110-balanced-binary-tree](https://github.com/chahatsaini13/dsa-solutions/tree/master/0110-balanced-binary-tree) |
 | [0200-number-of-islands](https://github.com/chahatsaini13/dsa-solutions/tree/master/0200-number-of-islands) |
+| [0547-number-of-provinces](https://github.com/chahatsaini13/dsa-solutions/tree/master/0547-number-of-provinces) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/chahatsaini13/dsa-solutions/tree/master/0200-number-of-islands) |
+| [0547-number-of-provinces](https://github.com/chahatsaini13/dsa-solutions/tree/master/0547-number-of-provinces) |
 | [0994-rotting-oranges](https://github.com/chahatsaini13/dsa-solutions/tree/master/0994-rotting-oranges) |
 ## Union-Find
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/chahatsaini13/dsa-solutions/tree/master/0200-number-of-islands) |
+| [0547-number-of-provinces](https://github.com/chahatsaini13/dsa-solutions/tree/master/0547-number-of-provinces) |
 ## Matrix
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/chahatsaini13/dsa-solutions/tree/master/0200-number-of-islands) |
 | [0994-rotting-oranges](https://github.com/chahatsaini13/dsa-solutions/tree/master/0994-rotting-oranges) |
+## Graph Theory
+|  |
+| ------- |
+| [0547-number-of-provinces](https://github.com/chahatsaini13/dsa-solutions/tree/master/0547-number-of-provinces) |
 <!---LeetCode Topics End-->
